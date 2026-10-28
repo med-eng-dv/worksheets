@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Worksheets — Medical English</title>
+<style>
+  :root{
+    --bg:#f6f8fa; --card:#ffffff; --ink:#1f2933; --muted:#5b6b79;
+    --accent:#0b6bcb; --accent-soft:#e3effc; --line:#e3e8ee;
+  }
+  *{box-sizing:border-box; margin:0; padding:0;}
+  body{font-family:'Segoe UI',Arial,sans-serif; background:var(--bg); color:var(--ink); line-height:1.55;}
+  a{color:inherit;}
+
+  header{
+    position:sticky; top:0; z-index:10; background:#fff;
+    border-bottom:1px solid var(--line); padding:14px 20px;
+    display:flex; align-items:center; justify-content:space-between; gap:16px; flex-wrap:wrap;
+  }
+  header h1{font-size:1.25rem;}
+  header .subtitle{font-size:.85rem; color:var(--muted);}
+  nav{display:flex; gap:6px; flex-wrap:wrap;}
+  nav a{
+    font-size:.82rem; text-decoration:none; padding:6px 10px; border-radius:16px;
+    background:var(--accent-soft); color:var(--accent); white-space:nowrap;
+  }
+  nav a:hover{background:#cfe2f8;}
+
+  main{max-width:900px; margin:0 auto; padding:28px 20px 60px;}
+  .intro{color:var(--muted); margin-bottom:28px; font-size:.95rem;}
+
+  section{background:var(--card); border:1px solid var(--line); border-radius:12px; padding:22px; margin-bottom:26px;}
+  h2{font-size:1.15rem; margin-bottom:4px;}
+  h2 .count{color:var(--muted); font-weight:400; font-size:.85rem;}
+  h3{font-size:.95rem; color:var(--accent); margin:18px 0 8px;}
+  section > h3:first-of-type{margin-top:12px;}
+  .divider{height:1px; background:var(--line); margin:16px 0;}
+
+  .sheet{
+    display:flex; justify-content:space-between; align-items:center; gap:12px;
+    padding:12px 14px; border:1px solid var(--line); border-radius:10px; margin-bottom:8px;
+    background:#fff; transition:border-color .15s;
+  }
+  .sheet:hover{border-color:var(--accent);}
+  .sheet a{font-weight:600; text-decoration:none; color:var(--ink);}
+  .sheet a:hover{color:var(--accent);}
+  .desc{font-size:.85rem; color:var(--muted); margin-top:2px;}
+  .badge{
+    flex-shrink:0; font-size:.72rem; font-weight:700; letter-spacing:.5px;
+    padding:3px 9px; border-radius:12px; background:#eef1f4; color:var(--muted);
+  }
+  .badge.a1{background:#e6f4ea; color:#1e7e34;}
+  .badge.a2{background:#e3f0fc; color:#0b6bcb;}
+  .badge.b1{background:#fff4e0; color:#b26a00;}
+  .badge.b2{background:#f7e6f4; color:#a1236f;}
+  .badge.c1{background:#ede9fb; color:#5b34c7;}
+  .badge.new{background:#ffe3e3; color:#c0392b; margin-left:6px;}
+
+  .empty{font-size:.85rem; color:var(--muted); font-style:italic; padding:8px 14px;}
+
+  footer{max-width:900px; margin:0 auto; padding:0 20px 40px; color:var(--muted); font-size:.8rem;}
+
+  @media(max-width:640px){
+    nav{display:none;}
+    section{padding:16px;}
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <div>
+    <h1>Worksheets</h1>
+    <div class="subtitle">Medical English &mdash; worksheets for students</div>
+  </div>
+  <nav>
+    <a href="#med-translators">Medical Translators</a>
+    <a href="#general-medicine">General Medicine</a>
+    <a href="#paediatrics">Paediatrics</a>
+    <a href="#preventive">Preventive Medicine</a>
+    <a href="#psychology">Psychology</a>
+    <a href="#dentistry">Dentistry</a>
+    <a href="#pharmacy">Pharmacy</a>
+    <a href="#nursing">Nursing</a>
+  </nav>
+</header>
+
+<main>
+  <p class="intro">Choose your programme and year, then pick a worksheet. New worksheets are marked <span class="badge new">NEW</span>.</p>
+
+  <!-- ============ MEDICAL TRANSLATORS ============ -->
+  <section id="med-translators">
+    <h2>Medical Translators</h2>
+
+    <h3>Year 1</h3>
+    <div class="sheet">
+      <div>
+        <a href="example-1.html">Example worksheet</a>
+        <div class="desc">Short description of the worksheet</div>
+      </div>
+      <span class="badge a2">A2</span>
+    </div>
+    <div class="empty">Add your Year 1 worksheets here &mdash; copy the block above and change the file name.</div>
+
+    <div class="divider"></div>
+
+    <h3>Year 2</h3>
+    <div class="empty">Year 2 worksheets will appear here.</div>
+  </section>
+
+  <!-- ============ GENERAL MEDICINE ============ -->
+  <section id="general-medicine">
+    <h2>General Medicine</h2>
+    <div class="empty">Worksheets will appear here.</div>
+  </section>
+
+  <!-- ============ PAEDIATRICS ============ -->
+  <section id="paediatrics">
+    <h2>Paediatrics</h2>
+    <div class="empty">Worksheets will appear here.</div>
+  </section>
+
+  <!-- ============ PREVENTIVE MEDICINE ============ -->
+  <section id="preventive">
+    <h2>Preventive Medicine</h2>
+
+    <h3>Year 1</h3>
+    <div class="empty">Year 1 worksheets will appear here.</div>
+
+    <div class="divider"></div>
+
+    <h3>Year 2</h3>
+    <div class="empty">Year 2 worksheets will appear here.</div>
+  </section>
+
+  <!-- ============ PSYCHOLOGY ============ -->
+  <section id="psychology">
+    <h2>Psychology</h2>
+
+    <h3>Year 1</h3>
+    <div class="empty">Year 1 worksheets will appear here.</div>
+
+    <div class="divider"></div>
+
+    <h3>Year 2</h3>
+    <div class="empty">Year 2 worksheets will appear here.</div>
+  </section>
+
+  <!-- ============ DENTISTRY ============ -->
+  <section id="dentistry">
+    <h2>Dentistry</h2>
+    <div class="empty">Worksheets will appear here.</div>
+  </section>
+
+  <!-- ============ PHARMACY ============ -->
+  <section id="pharmacy">
+    <h2>Pharmacy</h2>
+
+    <h3>Year 1</h3>
+    <div class="empty">Year 1 worksheets will appear here.</div>
+
+    <div class="divider"></div>
+
+    <h3>Year 2</h3>
+    <div class="empty">Year 2 worksheets will appear here.</div>
+  </section>
+
+  <!-- ============ NURSING ============ -->
+  <section id="nursing">
+    <h2>Nursing</h2>
+    <div class="empty">Worksheets will appear here.</div>
+  </section>
+
+</main>
+
+<footer>
+  Worksheets &copy; 2026. For my students only.Copying and distribution without permission is not allowed.
+</footer>
+
+</body>
+</html>
